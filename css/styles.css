@@ -3,14 +3,6 @@ body {
   font-family: Charter, serif;
 }
 
-.jumbotron h1 {
-  text-shadow: 1px 1px #000000;
-}
-
-.jumbotron p {
-  text-shadow: 1px 1px #000000;
-}
-
 .aboutme {
   background-color: white;
   padding: 15px;
@@ -24,28 +16,17 @@ body {
   margin-bottom: 20px;
 }
 
-.bg-info {
-  padding: 10px;
-}
-
 .list-inline {
   text-align: right;
   font-size: 20px;
-}
-
-.well {
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  background-color: #cceaf9;
-  width: 35%;
-  border: 3px solid #a7d8ef;
 }
 
 .bg-info {
   margin-top: 10px;
   padding-left: 20%;
   padding-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #c2e3fc; /*#b5defc;*/
 }
 
@@ -54,6 +35,14 @@ body {
   background-color: white;
   padding: 15px;
   border-radius: 6px;
+}
+
+.jumbotron h1 {
+  text-shadow: 1px 1px #000000;
+}
+
+.jumbotron p {
+  text-shadow: 1px 1px #000000;
 }
 
 /*https://codepen.io/JacobLett/pen/jqqyaR*/
@@ -71,6 +60,7 @@ body {
   top:0;left:0;
   z-index:1;
 }
+
 .jumbotron {
   position:relative;padding:50px;
   color: white;
@@ -112,4 +102,13 @@ body {
   background-color: #ffffff;
   opacity: 0.6;
   float: left;
+}*/
+
+/*.well {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #cceaf9;
+  width: 35%;
+  border: 3px solid #a7d8ef;
 }*/
