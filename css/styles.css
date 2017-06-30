@@ -37,6 +37,11 @@ body {
   border-radius: 6px;
 }
 
+.jumbotron {
+  position:relative;padding:50px;
+  color: white;
+}
+
 .jumbotron h1 {
   text-shadow: 1px 1px #000000;
 }
@@ -59,11 +64,6 @@ body {
     position:absolute;
   top:0;left:0;
   z-index:1;
-}
-
-.jumbotron {
-  position:relative;padding:50px;
-  color: white;
 }
 
 .jumbotron .container {z-index:2;
