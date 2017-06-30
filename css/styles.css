@@ -3,10 +3,6 @@ body {
   font-family: Charter, serif;
 }
 
-/*p, ul {
-  font-family: Optima, Helvetica Neue, Helvetica, Arial, sans-serif;
-}*/
-
 .jumbotron h1 {
   text-shadow: 1px 1px #000000;
 }
@@ -25,8 +21,8 @@ body {
   height: 250px;
   float: right;
   box-shadow: 4px 4px 3px grey;
+  margin-bottom: 20px;
 }
-/*There is a problem with corner rounding; not applying to left corners.*/
 
 .bg-info {
   padding: 10px;
@@ -40,10 +36,16 @@ body {
 .well {
   display: block;
   margin: auto;
-  /*margin-top: 20px;*/
+  margin-top: 20px;
   background-color: #cceaf9;
   width: 35%;
-  float: center;
+  border: 3px solid #a7d8ef;
+}
+
+.bg-info {
+  margin-top: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .github {
@@ -52,7 +54,6 @@ body {
   padding: 15px;
   border-radius: 6px;
 }
-
 
 /*https://codepen.io/JacobLett/pen/jqqyaR*/
 .jumbotron-billboard .img {
