@@ -1,5 +1,6 @@
 body {
   background-color: #ead6c7;
+  font-family: Charter, serif;
 }
 
 /*p, ul {
@@ -33,11 +34,16 @@ body {
 
 .list-inline {
   text-align: right;
+  font-size: 20px;
 }
 
 .well {
-  background-color: #e1f4dc;
+  display: block;
+  margin: auto;
+  /*margin-top: 20px;*/
+  background-color: #cceaf9;
   width: 35%;
+  float: center;
 }
 
 .github {
@@ -46,6 +52,7 @@ body {
   padding: 15px;
   border-radius: 6px;
 }
+
 
 /*https://codepen.io/JacobLett/pen/jqqyaR*/
 .jumbotron-billboard .img {
@@ -75,6 +82,21 @@ body {
 .mission {
   font-weight: 500;
 }
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+/*.footer .glyphicon {
+  float: left;
+  padding-left: 15px;
+}*/
 
 /*.jumbotron {
   background-image: url(../img/placeholderbookshelf.jpg);
