@@ -1,0 +1,47 @@
+body {
+  background-color: #e1f4dc;
+}
+
+.aboutme {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.img-rounded {
+  height: 250px;
+  float: right;
+  padding-left: 10px;
+}
+/*There is a problem with corner rounding; not applying to left corners.*/
+
+.bg-info {
+  padding: 10px;
+}
+
+.list-inline {
+  text-align: right;
+}
+
+.well {
+  background-color: #e1f4dc;
+  width: 35%;
+}
+
+.github {
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.mission {
+
+}
+
+.jumbotron {
+  background-image: url(../img/placeholderbookshelf.jpg);
+  background-size: cover;
+  background-color: #e1f4dc;
+  color: white;
+}
