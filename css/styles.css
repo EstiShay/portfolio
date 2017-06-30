@@ -1,5 +1,5 @@
 body {
-  background-color: #e1f4dc;
+  background-color: #ead6c7;
 }
 
 /*p, ul {
@@ -23,7 +23,7 @@ body {
 .img-rounded {
   height: 250px;
   float: right;
-  padding-left: 10px;
+  box-shadow: 4px 4px 3px grey;
 }
 /*There is a problem with corner rounding; not applying to left corners.*/
 
