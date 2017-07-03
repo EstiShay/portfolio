@@ -16,7 +16,7 @@ Created with Atom.
 
 ### Github
 
-This project can be found on [Github](https://github.com/EstiShay/portfolio).
+This project can be viewed [Github](https://estishay.github.io/portfolio/).
 
 
 ### License
